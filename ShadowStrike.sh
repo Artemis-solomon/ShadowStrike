@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ShadowStrike: Sentinel Infiltrator
+# ShadowStrike
 # Author: Artemis O. Solomon
 # Description: An interactive script for performing SSH brute force attacks
 # Version: 1.0
