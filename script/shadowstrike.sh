@@ -1,16 +1,22 @@
 ```bash
 #!/bin/bash
 
-# ShadowStrike - Interactive Bash Script for SSH Brute Force Simulation
+# ShadowStrike
+# Author: Artemis O. Solomon
+# Description: # Interactive Bash Script for SSH Brute Force Simulation
+# Version: 1.0
 
 # Function to display the banner
 display_banner() 
 {
-  echo "******************************************************************"
-  echo "**                   Welcome to ShadowStrike                    **"
-  echo "**            SSH Brute Force Simulation Script                 **"
-  echo "******************************************************************"
-  echo
+# Banner
+echo "_______________________               _____        ";
+echo "___    |__  __ \__  __/___________ ______(_)_______";
+echo "__  /| |_  /_/ /_  /  _  _ \_  __ \`__ \_  /__  ___/";
+echo "_  ___ |  _, _/_  /   /  __/  / / / / /  / _(__  ) ";
+echo "/_/  |_/_/ |_| /_/    \___//_/ /_/ /_//_/  /____/  ";
+echo "                                                   ";
+
 }
 
 # Function to display an error message, log it, and exit
