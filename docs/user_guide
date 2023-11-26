@@ -1,0 +1,79 @@
+## ShadowStrike User Guide
+
+### Step 1: Clone the Repository
+
+Clone the ShadowStrike repository or download the script to your local machine.
+
+```bash
+git clone https://github.com/your-username/ShadowStrike.git
+```
+
+### Step 2: Navigate to the Script Directory
+
+Enter the script directory:
+
+```bash
+cd ShadowStrike/scripts
+```
+
+### Step 3: Make the Script Executable
+
+Ensure the script has executable permissions:
+
+```bash
+chmod +x shadowstrike.sh
+```
+
+### Step 4: Run the Script
+
+Execute the script:
+
+```bash
+./shadowstrike.sh
+```
+
+### Step 5: Follow the Interactive Configuration
+
+The script will prompt you for the following information:
+
+- **Target Host:** Enter the IP address or hostname of the target.
+- **Target Port:** Specify the port for the SSH service (default is 22).
+- **Username List:** Provide the path to the file containing the list of usernames.
+- **Password List:** Provide the path to the file containing the list of passwords.
+- **Output File:** Specify the path for the file where successful logins will be recorded.
+
+### Step 6: Confirm Configuration
+
+Review the entered configuration. If correct, the script will save the configuration to `config.conf`.
+
+### Step 7: Perform Resource Check
+
+The script checks for the presence of necessary files (username and password lists) and the availability of the Hydra tool. Follow any prompts to address missing resources.
+
+### Step 8: Execute the Brute Force Attack
+
+The script utilizes Hydra to perform the brute force attack. Observe the progress messages and wait for the attack to complete.
+
+### Step 9: Review Results
+
+After the attack, review the results. Successful logins will be saved to the specified output file.
+
+### Step 10: Repeat or Exit
+
+The script will prompt you to decide whether to repeat the attack or exit. Choose 'y' to restart the script for another attack or 'n' to exit.
+
+**Note:** ShadowStrike is intended for educational and ethical security testing. Use it responsibly and only on systems for which you have explicit authorization.
+
+### Additional Tips:
+
+- **Configuration Persistence:** The script saves the configuration in `config.conf`. If you want to change the configuration, run the script again.
+
+- **Troubleshooting:** If you encounter issues, refer to the troubleshooting guide in the documentation or reach out for assistance.
+
+### Step 11: Optional - Repeat the Process
+
+If you chose to repeat the attack, the script will loop back to the beginning, allowing you to perform multiple iterations for learning and testing.
+
+---
+
+By following these steps, users can simulate SSH brute force attacks in a controlled and educational environment using ShadowStrike. Always adhere to ethical and legal standards when using security testing tools. If you have any questions or feedback, contact us at artemis@dnmx.org.
